@@ -1,5 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
+import { Container } from "reactstrap";
+
+import Navigation from "./Navigation";
 import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
@@ -9,15 +11,15 @@ import Contact from "./Contact";
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <Container>
+      <Navigation />
       <Hero />
       <AboutMe />
       <Skills />
       <Projects />
       <Resume />
       <Contact />
-    </div>
+    </Container>
   );
 }
 

@@ -1,4 +1,4 @@
-const Navbar = () => {
+const Navigation = () => {
   return (
     <nav>
       <a href="#about">About</a>
@@ -10,4 +10,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation;
